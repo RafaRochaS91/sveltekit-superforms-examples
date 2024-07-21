@@ -17,7 +17,7 @@
 </script>
 
 <SuperDebug data={$formData} />
-<form use:enhance method="POST" class="p-6 flex items-start flex-col w-full gap-4">
+<form use:enhance method="POST" class="p-6 flex items-center w-full gap-4">
   <MultiSelect {form} field="items" label="Select Option" options={data.options} />
   <button type="submit" class="rounded-md bg-neutral-400 p-2">Submit</button>
 </form>

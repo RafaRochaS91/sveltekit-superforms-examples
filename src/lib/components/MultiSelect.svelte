@@ -62,7 +62,7 @@
         <Select.Value placeholder="Click me!" />
       </Select.Trigger>
       <Select.Content
-        class="w-full rounded-xl border border-muted bg-background px-1 py-3 shadow-popover outline-none"
+        class="w-full rounded-xl border border-muted bg-slate-400 px-1 py-3 shadow-popover outline-none"
       >
         {#each options as option}
           <Select.Item
